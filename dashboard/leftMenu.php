@@ -1,3 +1,4 @@
+<?php $getLocalhost = 'http://localhost/CMP/production/';?>
 <aside id="minileftbar" class="minileftbar">
     <ul class="menu_list">
         <li>
@@ -378,18 +379,24 @@
                     </div>
                 </li>
                 <li class="header">MAIN</li>
-                <li class="active open"> <a href="index.html"><i class="zmdi zmdi-home"></i><span>Dashboard</span></a></li>
-                <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-apps"></i><span>App</span> <span class="badge badge-success float-right">7</span></a>
+                <li class="active open"> <a href="http://localhost/CMP/production/dashboard/"><i class="zmdi zmdi-home"></i><span>Dashboard</span></a></li>
+                  <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-swap-alt"></i><span>Customer</span> <span class="badge badge-success float-right">2</span></a>
                     <ul class="ml-menu">
-                        <li><a href="mail-inbox.html">Inbox</a></li>
-                        <li><a href="chat.html">Chat</a></li>
-                        <li><a href="events.html">Calendar</a></li>
-                        <li><a href="file-dashboard.html">File Manager</a></li>
-                        <li><a href="contact.html">Contact list</a></li>
-                        <li><a href="blog-dashboard.html">Blog</a></li>
-                        <li><a href="app-ticket.html">Support Ticket</a></li>
+                        <li><a href="#">Customer List</a></li>
+                        <li><a href="#">Customer Create</a></li>
+
                     </ul>
                 </li>
+                <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-assignment"></i><span>Shipment</span> <span class="badge badge-success float-right">2</span></a>
+                    <ul class="ml-menu">
+                        <li><a href='http://localhost/CMP/production/dashboard/particle/shipment_list.php'>Shipment List </a></li>
+                        <li><a href='http://localhost/CMP/production/dashboard/particle/shipment_create.php'>Shipment Create </a></li>
+
+                      
+
+                    </ul>
+                </li>
+
                            
             </ul>
         </div>
