@@ -1,9 +1,16 @@
 ﻿<!doctype html>
 <html class="no-js " lang="en">
 <head>
-<?php include 'dashboard/particle/head.php';?>
-<link rel="icon" href="dashboard/favicon.ico" type="image/x-icon">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<meta name="description" content="Responsive Bootstrap 4 and web Application ui kit.">
+
+<title>:: Alpino :: Sign In</title>
+<!-- Favicon-->
+<link rel="icon" href="favicon.ico" type="image/x-icon">
 <link rel="stylesheet" href="dashboard/assets/plugins/bootstrap/css/bootstrap.min.css">
+
 <!-- Custom Css -->
 <link rel="stylesheet" href="dashboard/assets/css/main.css">    
 <link rel="stylesheet" href="dashboard/assets/css/color_skins.css">
@@ -66,6 +73,6 @@
 </div>
 <!-- Jquery Core Js -->
 <script src="dashboard/assets/bundles/libscripts.bundle.js"></script>
-<script src="dashboard/assets/bundles/vendorscripts.bundle.js"></script> <!-- Lib Scripts Plugin Js -->
+<script src="dashboard/assets/bunddashboard/les/vendorscripts.bundle.js"></script> <!-- Lib Scripts Plugin Js -->
 </body>
 </html>
