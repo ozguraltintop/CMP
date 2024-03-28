@@ -13,7 +13,7 @@
 <!-- Page Loader -->
 <div class="page-loader-wrapper">
     <div class="loader">
-        <div class="m-t-30"><img src="../assets/images/logo.svg" width="48" height="48" alt="Alpino"></div>
+        <div class="m-t-30"><img src="../assets/images/house.svg" width="48" height="48" alt="Alpino"></div>
         <p>Please wait...</p>        
     </div>
 </div>
@@ -151,7 +151,7 @@
                                     <th>Price</th>
                                     <th>Paid Situation</th>
                                     <th>Date</th>
-                                    <th>Info Box</th>
+                                    <th>Command</th>
                                 </tr>
                             </thead>
                             <tfoot>
@@ -161,7 +161,7 @@
                                     <th>Price</th>
                                     <th>Paid Situation</th>
                                     <th>Date</th>
-                                    <th>Info Box</th>
+                                    <th>Command</th>
                                 </tr>
                             </tfoot>
                             <tbody>
@@ -171,15 +171,23 @@
                                     <td>1100 $</td>
                                     <td>Paid</td>
                                     <td>2011/04/25</td>
-                                    <td>info</td>
+                                    <td>
+                                        <img src="../assets/icons/resume.png">
+                                        <img src="../assets/icons/printer.png">
+                                        <img src="../assets/icons/delete.png">
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>Garrett Winters</td>
                                     <td>Japan</td>
+                                    <td>1100 $</td>
                                     <td>Unpaid</td>
-                                    <td>63</td>
                                     <td>2011/07/25</td>
-                                    <td>info</td>
+                                    <td>
+                                          <img src="../assets/icons/resume.png">
+                                        <img src="../assets/icons/printer.png">
+                                        <img src="../assets/icons/delete.png">
+                                    </td>
                                 </tr>
                                
                             </tbody>
