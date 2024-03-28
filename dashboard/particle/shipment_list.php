@@ -107,7 +107,7 @@
                     <ul class="breadcrumb padding-0">
                         <li class="breadcrumb-item"><a href="index.html"><i class="zmdi zmdi-home"></i></a></li>
                         <li class="breadcrumb-item"><a href="javascript:void(0);">Shipment</a></li>
-                        <li class="breadcrumb-item active">Customer List</li>
+                        <li class="breadcrumb-item active">Shipment List</li>
                     </ul>
                 </div>            
                 <div class="col-lg-7 col-md-7 col-sm-12">
