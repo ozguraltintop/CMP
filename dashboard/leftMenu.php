@@ -1,9 +1,13 @@
-<?php $getLocalhost = 'http://localhost/CMP/production/';?>
+<?php $getLocalhost = 'http://'.$_SERVER['HTTP_HOST'].'/CMP/production/dashboard';
+ ?>
+
+
+
 <aside id="minileftbar" class="minileftbar">
     <ul class="menu_list">
         <li>
             <a href="javascript:void(0);" class="bars"></a>
-            <a class="navbar-brand" href="index.html"><img src="assets/images/logo.svg" alt="Alpino"></a>
+            <a class="navbar-brand" href="<?php echo $getLocalhost;?>/index.php"><img src="<?php echo $getLocalhost;?>/assets/images/logo.svg" alt="Alpino"></a>
         </li>
         <li><a href="javascript:void(0);" class="btn_overlay hidden-sm-down"><i class="zmdi zmdi-search"></i></a></li>        
         <li><a href="javascript:void(0);" class="menu-sm"><i class="zmdi zmdi-swap"></i></a></li>        
@@ -366,11 +370,11 @@
                 <li>
                     <div class="user-info m-b-20">
                         <div class="image">
-                            <a href="profile.html"><img src="assets/images/profile_av.jpg" alt="User"></a>
+                            <a href="<?php echo $getLocalhost;?>/particle/profile.php"><img src="<?php echo $getLocalhost;?>/assets/images/profile_av.jpg" alt="User"></a>
                         </div>
                         <div class="detail">
-                            <h6>Michael</h6>
-                            <p class="m-b-0">info@example.com</p>
+                            <h6 style="color:red">ADMİN</h6>
+                            <p class="m-b-0">info@devialt.com.tr</p>
                             <a href="javascript:void(0);" title="" class=" waves-effect waves-block"><i class="zmdi zmdi-facebook-box"></i></a>
                             <a href="javascript:void(0);" title="" class=" waves-effect waves-block"><i class="zmdi zmdi-linkedin-box"></i></a>
                             <a href="javascript:void(0);" title="" class=" waves-effect waves-block"><i class="zmdi zmdi-instagram"></i></a>
@@ -389,9 +393,9 @@
                 </li>
                 <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-assignment"></i><span>Shipment</span> <span class="badge badge-success float-right">2</span></a>
                     <ul class="ml-menu">
-                        <li><a href='http://localhost/CMP/production/dashboard/particle/shipment_list.php'>Shipment List </a></li>
-                        <li><a href='http://localhost/CMP/production/dashboard/particle/shipment_create.php'>Shipment Create </a></li>
-
+                        <li><a href='<?php echo $getLocalhost;?>/particle/shipment_list.php'>Shipment List </a></li>
+                        <li><a href='<?php echo $getLocalhost;?>/particle/shipment_create.php'>Shipment Create </a></li>
+                       
                       
 
                     </ul>
